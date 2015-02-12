@@ -1,21 +1,265 @@
-header{
+body{
+	margin: 0;
+	padding: 0;
+}
+header .info{
 	background: url(../img/banner-head.jpg) no-repeat center;
 	width: 100%;
+	height: 28rem;
 }
-header img{
-	margin-left: 1rem;
+#logo{
+	background-color: #1b8abe;
+	padding: 0 2rem 0 2rem;
 }
 header nav{
-	border:1px solid #000;
+	border:1px solid #2b2b2b;
 	margin-left: 9rem;
 	margin-top: -7rem;
-	background-color: #000;
+	background-color: #2b2b2b;
 	padding: 2rem;
 }
 nav a{
 	color: #fff;
 	text-decoration: none;
-	margin-left: 7rem;
+	margin-left: 5.12rem;
 	font-size: 2rem;
 }
-
+#badge{
+	margin:0.12rem 0 0 35.99rem;
+	max-width: 1000px;
+}
+.info h2{
+	max-width: 1000px;
+	margin: 0 34.1rem 0px;
+	color:#fff;
+}
+.info span{
+	max-width: 1000px;
+	margin: 0.5rem 29.10rem 0;
+	color:#fff;
+	font-size: 1.5rem;
+}
+.info h4{
+	max-width: 1000px;
+	text-transform: uppercase;
+	margin: 0.65rem 33rem 0px;
+}
+.info p{
+	max-width: 1000px;
+	margin:0.5rem 36rem 0 36rem;
+	color: #fff;
+	font-size: 1.1rem;
+}
+.info img{
+	max-width: 1000px;
+	margin: 0.5rem 0 1.5rem 40.5rem;
+}
+.info a{
+	max-width: 1000px;
+	margin: 0 0 0 36.6rem;
+	font-size: 0.93rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+	padding:0.5rem 2.3rem;
+}
+.acerca, .eventosprevios{
+	max-width: 1117px;
+}
+.acerca p:first-child{
+	margin: 8.56rem 0 1rem 13.75rem;
+	border-bottom:1px solid #000; 
+	padding-bottom: 1rem;
+	font-size: 0.9rem;
+} 
+.acerca h2{
+	margin: 4.06rem 0 0 13.8rem;
+	text-align: center;
+	font-size: 1.7rem;
+	color:#3b1128;
+}
+.acerca p.info-uno{
+	width: 39%;
+	margin-top: 1.75rem;
+	margin-left: 13.75rem;
+	font-size: 1.1rem;
+	color:#3b1128;
+}
+.acerca p.info-dos{
+	float: right;
+	width: 38%;
+	margin-top: -7.65rem;
+	font-size: 1.1rem;
+	color:#3b1128;
+}
+article{
+	margin-top: 5.93rem;
+	text-align: center;
+	font-size: 1.42rem;
+	color: #6E7C89;
+	margin-left: 14.6rem;
+	width: 75%;
+}
+article span{
+	color:#e8330f;
+}
+article strong{
+	color:#000;
+}
+.eventosprevios{
+	max-width: 1000px;
+}
+.eventosprevios h4{
+	margin: 6.18rem 0 0 36.68rem;
+	font-size: 1.06rem;
+}
+.CR-2013{
+	max-width: 1000px;
+	background-color: #F0F0F0;
+	padding: 0 3rem 3rem 0.75rem;
+	margin: 4rem -3rem 4rem 16rem;
+}
+.CR-2013 img{
+	height: 13.5rem;
+	width: 28%;
+	margin-left: 1.5rem;
+	margin-top: 3rem;
+}
+.CR-2013 h3{
+	float: right;
+	margin-top: 2rem;
+	margin-right: 18.5rem;
+	font-size: 1.3rem;
+}
+.CR-2013 .cr-uno{
+	float: right;
+	width: 66%;
+	margin-top: -12rem;
+	margin-right: 9px;
+}
+.CR-2013 .cr-dos{
+	float: right;
+	width: 67%;
+	margin-top: -7rem;
+	margin-right: 0px;
+}
+.CR-2013 span{
+	color:#e9620f;
+}
+.CR-2012{
+	max-width: 1000px;
+	background-color: #F0F0F0;
+	padding: 0 3rem 3rem 0.75rem;
+	margin: 4rem -3rem 4rem 16rem;
+}
+.CR-2012 img{
+	height: 13.5rem;
+	width: 28%;
+	margin-left: 1.5rem;
+	margin-top: 3rem;
+}
+.CR-2012 h3{
+	float: right;
+	margin-top: 2rem;
+	margin-right: 18.5rem;
+	font-size: 1.3rem;
+}
+.CR-2012 .cr-tres{
+	float: right;
+	width: 66%;
+	margin-top: -12rem;
+	margin-right: 9px;
+}
+.CR-2012 .cr-cuatro{
+	float: right;
+	width: 67%;
+	margin-top: -7rem;
+	margin-right: 0px;
+}
+.CR-2012 .cr-cinco{
+	float: right;
+	width: 65%;
+	margin-top: -2rem;
+	margin-right: 14px;
+}
+.CR-2012 span{
+	color:#e9620f;
+}
+.tercer-2011{
+	max-width: 1000px;
+	background-color: #F0F0F0;
+	padding: 0 3rem 3rem 0.75rem;
+	margin: 4rem -3rem 4rem 16rem;
+}
+.tercer-2011 img{
+	height: 13.5rem;
+	width: 28%;
+	margin-left: 1.5rem;
+	margin-top: 3rem;
+}
+.tercer-2011 h3{
+	float: right;
+	margin-top: 2rem;
+	margin-right: 7.5rem;
+	font-size: 1.3rem;
+}
+.tercer-2011 .seis{
+	float: right;
+	width: 66%;
+	margin-top: -11rem;
+	margin-right: -4px;
+}
+.tercer-2011 .siete{
+	float: right;
+	width: 63%;
+	margin-top: -6rem;
+	margin-right: 17px;
+}
+.tercer-2011 span{
+	color:#e9620f;
+}
+.comentarios{
+	max-width: 1000px;
+	display: inline-block;
+}
+.comentarios blockquote:before{
+	color:#fff;
+	content: open-quote;
+	font-size: 1.5rem;
+}
+.comentarios blockquote:after{
+	color:#fff;
+	content: close-quote;
+	font-size: 1.5rem;
+}
+.coment-uno{
+	background-color: #f3810e;
+	padding: 1.37rem 2rem 1.93rem 1.81rem;
+	margin: 0px 41.25rem 1.62rem 5.18rem;
+}
+.comentarios blockquote{
+	width: 82%;
+	color:#fff;
+	margin: 0 0 0 1.18rem;
+}
+.comentarios p{
+	color: #fff;
+	margin-left: 2rem;
+}
+.comentarios span{
+	color:#e8330f;
+}
+.coment-dos{
+	float: right;
+	background-color: #f3810e;
+	padding: 1.37rem 2rem 1.93rem 1.81rem;
+	margin: 0px 41.25rem 1.62rem 5.18rem;
+}
+.coment-tres{
+	float: right;
+	background-color: #f3810e;
+	padding: 1.37rem 2rem 1.93rem 1.81rem;
+	margin: 0px 41.25rem 1.62rem 5.18rem;
+}
